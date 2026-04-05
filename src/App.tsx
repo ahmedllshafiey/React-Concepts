@@ -6,6 +6,7 @@ import { Legacy } from "./components/Legacy"
 import { List } from "./components/List"
 import { Nested } from "./components/Nested"
 import { Props } from "./components/Props"
+import { Style } from "./components/Style"
 
 function App() {
   return (
@@ -57,6 +58,12 @@ function App() {
       <div>
         <h2>Example 08</h2>
         <Fragment/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 09</h2>
+        <Style/>
         <hr />
       </div>
     </>
