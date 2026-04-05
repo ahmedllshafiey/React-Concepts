@@ -1,6 +1,7 @@
 import { Conditional } from "./components/Conditional"
 import { Function } from "./components/Function"
 import { Legacy } from "./components/Legacy"
+import { List } from "./components/List"
 import { Nested } from "./components/Nested"
 import { Props } from "./components/Props"
 
@@ -36,6 +37,12 @@ function App() {
       <div>
         <h2>Example 05</h2>
         <Conditional/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 06</h2>
+        <List/>
         <hr />
       </div>
     </>
