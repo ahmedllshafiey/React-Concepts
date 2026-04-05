@@ -1,5 +1,6 @@
 import { Conditional } from "./components/Conditional"
 import { Event } from "./components/Event"
+import { Fragment } from "./components/Fragment"
 import { Function } from "./components/Function"
 import { Legacy } from "./components/Legacy"
 import { List } from "./components/List"
@@ -50,6 +51,12 @@ function App() {
       <div>
         <h2>Example 07</h2>
         <Event/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 08</h2>
+        <Fragment/>
         <hr />
       </div>
     </>
