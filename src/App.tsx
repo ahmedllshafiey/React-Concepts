@@ -1,3 +1,4 @@
+import { Conditional } from "./components/Conditional"
 import { Function } from "./components/Function"
 import { Legacy } from "./components/Legacy"
 import { Nested } from "./components/Nested"
@@ -29,6 +30,12 @@ function App() {
       <div>
         <h2>Example 04</h2>
         <Function/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 05</h2>
+        <Conditional/>
         <hr />
       </div>
     </>
