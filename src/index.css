@@ -67,6 +67,11 @@ input {
   color: white;
 }
 
+input:focus {
+  background-color: lightgreen;
+  color: #141414;
+}
+
 /* Special styles */
 .completed {
   text-decoration: line-through;
