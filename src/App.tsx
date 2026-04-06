@@ -17,6 +17,7 @@ import { Dynamic } from "./components/Dynamic"
 import { Click } from "./components/Click"
 import { Input } from "./components/Input"
 import { Submit } from "./components/Submit"
+import { Hover } from "./components/Hover"
 
 function App() {
   return (
@@ -134,6 +135,12 @@ function App() {
       <div>
         <h2>Example 19</h2>
         <Submit/>
+        <hr />
+      </div>
+      
+      <div>
+        <h2>Example 20</h2>
+        <Hover/>
         <hr />
       </div>
     </>
