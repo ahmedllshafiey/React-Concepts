@@ -13,7 +13,7 @@ import { Props } from "./components/Props"
 import { Recon } from "./components/Recon"
 import { Render } from "./components/Render"
 import { Style } from "./components/Style"
-import { Dynamic } from "./Dynamic"
+import { Dynamic } from "./components/Dynamic"
 
 function App() {
   return (

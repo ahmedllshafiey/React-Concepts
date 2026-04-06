@@ -1,17 +1,81 @@
+/* Layout */
 body {
-  background-color: #1f1f1f;
-  color: #d4d4d4;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #141414, #1f1f1f);
+  color: #e6e6e6;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  padding: 20px;
 }
 
-h1 {
-  color: rgb(0, 96, 221);
+/* Section wrapper */
+.section {
+  background: #252526;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-h2 {
-  color: #ffae00;
+/* Headings */
+h3 {
+  margin-bottom: 10px;
+  color: #4da3ff;
 }
 
-hr {
-  opacity: 0.5;
+/* Lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  background: #2d2d2d;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+li:hover {
+  background: #3a3a3a;
+}
+
+/* Buttons */
+button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #4da3ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-right: 10px;
+}
+
+button:hover {
+  background: #2f7edb;
+  transform: translateY(-1px);
+}
+
+/* Input */
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 10px;
+  background: #2d2d2d;
+  color: white;
+}
+
+/* Special styles */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.box {
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
 }
