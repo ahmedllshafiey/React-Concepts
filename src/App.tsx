@@ -19,6 +19,7 @@ import { Input } from "./components/Input"
 import { Submit } from "./components/Submit"
 import { Hover } from "./components/Hover"
 import { Ref } from "./components/Ref"
+import { Drag } from "./components/Drag"
 
 function App() {
   return (
@@ -148,6 +149,12 @@ function App() {
       <div>
         <h2>Example 21</h2>
         <Ref/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 22</h2>
+        <Drag/>
         <hr />
       </div>
     </>
