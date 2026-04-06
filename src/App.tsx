@@ -14,6 +14,7 @@ import { Recon } from "./components/Recon"
 import { Render } from "./components/Render"
 import { Style } from "./components/Style"
 import { Dynamic } from "./components/Dynamic"
+import { Click } from "./components/Click"
 
 function App() {
   return (
@@ -113,6 +114,12 @@ function App() {
       <div>
         <h2>Example 16</h2>
         <Dynamic/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 17</h2>
+        <Click/>
         <hr />
       </div>
     </>
