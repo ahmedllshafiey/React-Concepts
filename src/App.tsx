@@ -10,6 +10,7 @@ import { Legacy } from "./components/Legacy"
 import { List } from "./components/List"
 import { Nested } from "./components/Nested"
 import { Props } from "./components/Props"
+import { Recon } from "./components/Recon"
 import { Render } from "./components/Render"
 import { Style } from "./components/Style"
 
@@ -99,6 +100,12 @@ function App() {
       <div>
         <h2>Example 14</h2>
         <Complex/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 15</h2>
+        <Recon/>
         <hr />
       </div>
     </>
