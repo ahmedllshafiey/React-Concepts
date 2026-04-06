@@ -1,4 +1,5 @@
 import { useState } from "react";
+// Dynamic rendering with conditional styling
 
 export function Dynamic() {
     const [tasks, setTask] = useState([
