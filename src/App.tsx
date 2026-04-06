@@ -15,6 +15,7 @@ import { Render } from "./components/Render"
 import { Style } from "./components/Style"
 import { Dynamic } from "./components/Dynamic"
 import { Click } from "./components/Click"
+import { Input } from "./components/Input"
 
 function App() {
   return (
@@ -120,6 +121,12 @@ function App() {
       <div>
         <h2>Example 17</h2>
         <Click/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 18</h2>
+        <Input/>
         <hr />
       </div>
     </>
