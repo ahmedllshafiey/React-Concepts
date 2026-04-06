@@ -43,6 +43,7 @@ export function Drag() {
                 onDrop={handleDrop}
                 onDragEnter={handleDragEnter}
                 onDragLeave={handleDragLeave}
+                className="drag-box"
                 style={{
                     width: "300px",
                     height: "150px",

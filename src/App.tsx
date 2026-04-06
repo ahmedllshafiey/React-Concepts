@@ -20,6 +20,7 @@ import { Submit } from "./components/Submit"
 import { Hover } from "./components/Hover"
 import { Ref } from "./components/Ref"
 import { Drag } from "./components/Drag"
+import Effect from "./components/Effect"
 
 function App() {
   return (
@@ -155,6 +156,12 @@ function App() {
       <div>
         <h2>Example 22</h2>
         <Drag/>
+        <hr />
+      </div>
+      
+      <div>
+        <h2>Example 23</h2>
+        <Effect/>
         <hr />
       </div>
     </>
