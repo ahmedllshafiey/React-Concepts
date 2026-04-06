@@ -18,6 +18,7 @@ import { Click } from "./components/Click"
 import { Input } from "./components/Input"
 import { Submit } from "./components/Submit"
 import { Hover } from "./components/Hover"
+import { Ref } from "./components/Ref"
 
 function App() {
   return (
@@ -141,6 +142,12 @@ function App() {
       <div>
         <h2>Example 20</h2>
         <Hover/>
+        <hr />
+      </div>
+            
+      <div>
+        <h2>Example 21</h2>
+        <Ref/>
         <hr />
       </div>
     </>
