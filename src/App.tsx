@@ -1,3 +1,4 @@
+import { Complex } from "./components/Complex"
 import { Conditional } from "./components/Conditional"
 import { Control } from "./components/Control"
 import { Counter } from "./components/Counter"
@@ -92,6 +93,12 @@ function App() {
       <div>
         <h2>Example 13</h2>
         <Diff/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 14</h2>
+        <Complex/>
         <hr />
       </div>
     </>
