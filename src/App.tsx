@@ -1,5 +1,6 @@
 import { Conditional } from "./components/Conditional"
 import { Control } from "./components/Control"
+import { Counter } from "./components/Counter"
 import { Event } from "./components/Event"
 import { Fragment } from "./components/Fragment"
 import { Function } from "./components/Function"
@@ -71,6 +72,12 @@ function App() {
       <div>
         <h2>Example 10</h2>
         <Control/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 11</h2>
+        <Counter/>
         <hr />
       </div>
     </>
