@@ -8,6 +8,7 @@ import { Legacy } from "./components/Legacy"
 import { List } from "./components/List"
 import { Nested } from "./components/Nested"
 import { Props } from "./components/Props"
+import { Render } from "./components/Render"
 import { Style } from "./components/Style"
 
 function App() {
@@ -78,6 +79,12 @@ function App() {
       <div>
         <h2>Example 11</h2>
         <Counter/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 12</h2>
+        <Render/>
         <hr />
       </div>
     </>
