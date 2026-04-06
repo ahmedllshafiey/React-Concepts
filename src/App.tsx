@@ -13,6 +13,7 @@ import { Props } from "./components/Props"
 import { Recon } from "./components/Recon"
 import { Render } from "./components/Render"
 import { Style } from "./components/Style"
+import { Dynamic } from "./Dynamic"
 
 function App() {
   return (
@@ -106,6 +107,12 @@ function App() {
       <div>
         <h2>Example 15</h2>
         <Recon/>
+        <hr />
+      </div>
+
+      <div>
+        <h2>Example 16</h2>
+        <Dynamic/>
         <hr />
       </div>
     </>
